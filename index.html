@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Owais Ahmad — Drone Engineer & AI/ML Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Lato:wght@400;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="scrollProgress"></div>
+<div id="sparkles" aria-hidden="true"></div>
+
+<header>
+  <nav>
+    <div class="brand">
+      <div class="badge"><img src="images/owais.jpg" alt="Owais Ahmad"></div>
+      Owais Ahmad
+    </div>
+    <div class="navlinks" id="navlinks">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="#contact" class="btn btn-primary" style="display:inline-grid">Let's Connect</a>
+    <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </nav>
+  <div id="mobileMenu" style="display:none; padding:10px 32px 20px; gap:14px; border-top:1px solid var(--border);">
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div class="reveal show">
+      <div class="eyebrow"><span class="dot"></span> Open for Opportunities & Collaborations</div>
+      <h1>Hi, I'm<br><span class="accent">Owais Ahmad</span></h1>
+      <div class="hero-tagline">DRONE ENGINEER <span>·</span> SYSTEM INTEGRATION ENGINEER <span>·</span> FPV PILOT <span>·</span> AI/ML ENGINEER</div>
+      <p class="desc">B.Tech CSE (AI & ML) student at GLA University, building autonomous UAV systems from the ground up — custom multirotor and fixed-wing airframes, flight-control integration, and now teaching drones to navigate and think for themselves.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">View My Work →</a>
+        <a href="mailto:owaisahmadknp.30@gmail.com" class="btn btn-outline">✉ Connect With Me</a>
+        <a href="https://github.com/owaisahmadknp30-a11y" target="_blank" class="btn btn-ghost">GitHub</a>
+      </div>
+    </div>
+    <div class="profile-card reveal show">
+      <div class="photo-frame">
+        <div class="tape"></div>
+        <div class="tape right"></div>
+        <img src="images/OwaisNew.jpeg" alt="Owais Ahmad">
+      </div>
+      <div class="caption-row">
+        <div>
+          <div class="name">Owais Ahmad</div>
+          <div class="role">B.TECH CSE (AI &amp; ML)</div>
+        </div>
+        <span class="loc-pill">📍 India</span>
+      </div>
+      <div class="data-card">
+        <span class="kw">const</span> <span class="key">engineer</span> = {<br>
+        &nbsp;&nbsp;focus: <span class="str">"UAV Systems & AI"</span>,<br>
+        &nbsp;&nbsp;role: <span class="str">"Drone R&D Engineer"</span>,<br>
+        &nbsp;&nbsp;certifications: <span class="num">2</span>,<br>
+        &nbsp;&nbsp;learning: <span class="str">"Autonomous Navigation"</span><br>
+        };
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="tab">Who I Am</div>
+    <h2 class="section-title">An engineer who builds things that fly — and think</h2>
+    <p class="section-sub">Grounded in hardware, growing into applied AI.</p>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I'm a B.Tech CSE (AI & ML) student at <b>GLA University, Mathura</b>, working across drone engineering, system integration, and applied AI. My hands-on journey started with FPV — building and flying multirotor and fixed-wing platforms — and has since grown into full system integration: flight controllers, ground control software, sensors, and communication modules.</p>
+        <p>As a <b>Drone R&D Engineer</b> at Whizz Aerospace Pvt. Ltd., I worked on UAVs and aerospace systems end to end — embedded electronics and sensors (GPS, IMU, LIDAR), flight control systems, and R&D on hybrid drone interceptors and surveillance platforms, including successful demos delivered to defence and government sectors.</p>
+        <p>Beyond airframes, I work on the systems that make drones smarter and more resilient: mesh communication, swarm technology, anti-drone systems, and non-GPS navigation. I'm now applying my growing machine learning skills to my own projects — integrating AI onto drones for autonomous navigation aimed at real-world problems.</p>
+      </div>
+      <div class="note-grid reveal">
+        <div class="note">
+          <div class="icn">🛸</div>
+          <h3>Drone Systems Engineering</h3>
+          <p>Multirotor, fixed-wing, and hybrid UAV builds — from airframe to flight-control integration, using both indigenous and non-indigenous FCs.</p>
+        </div>
+        <div class="note">
+          <div class="icn">🎯</div>
+          <h3>FPV & Interceptor Platforms</h3>
+          <p>FPV, kamikaze, and interceptor drone builds flown and tuned on Betaflight, INAV, PX4, and ArduPilot ground stations.</p>
+        </div>
+        <div class="note">
+          <div class="icn">📡</div>
+          <h3>Comms & Autonomy</h3>
+          <p>Mesh communication, swarm technology, anti-drone systems, and non-GPS navigation for resilient, autonomous operation.</p>
+        </div>
+        <div class="note">
+          <div class="icn">🤖</div>
+          <h3>AI/ML Integration</h3>
+          <p>Currently learning machine learning and applying it to personal projects — integrating AI onto drones for autonomous navigation.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section" id="education">
+  <div class="wrap">
+    <div class="tab">Academics</div>
+    <h2 class="section-title">Education Timeline</h2>
+    <p class="section-sub">A track record of building a computer science and AI/ML foundation.</p>
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-card">
+          <div class="tl-date">In Progress</div>
+          <h3>B.Tech in Computer Science Engineering</h3>
+          <div class="tl-meta">🎓 GLA University, Mathura · Specialization in Artificial Intelligence & Machine Learning</div>
+          <p class="desc">Building a foundation across data structures, algorithms, machine learning, and software engineering — currently pursuing.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-card">
+          <div class="tl-date">Completed</div>
+          <h3>Senior Secondary Education (Class XII)</h3>
+          <div class="tl-meta">🏫 BSS Education Center</div>
+          <div class="tl-score">Score Achieved: <b>79%</b></div>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-card">
+          <div class="tl-date">Completed</div>
+          <h3>Secondary Education (Class X)</h3>
+          <div class="tl-meta">🏫 BSS Education Center</div>
+          <div class="tl-score">Score Achieved: <b>90%</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section class="section" id="certifications">
+  <div class="wrap">
+    <div class="tab">Credentials</div>
+    <h2 class="section-title">Industry Certifications</h2>
+    <p class="section-sub">Verified achievements in cloud fundamentals and applied drone engineering.</p>
+    <div class="grid-3">
+      <div class="cert-card reveal">
+        <div class="cert-icon">☁️</div>
+        <h3>Microsoft Certified: Azure Fundamentals (AZ-900)</h3>
+        <div class="cert-issuer">Microsoft</div>
+        <div class="cert-date">Issued May 19, 2026</div>
+        <a class="cert-verify" href="https://verify.certiport.com" target="_blank">Verify Credential ↗</a>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-icon">🛸</div>
+        <h3>Summer Internship — Drone R&D Engineer</h3>
+        <div class="cert-issuer">Whizz Aerospace Pvt. Ltd.</div>
+        <div class="cert-date">25 May 2026 – 09 Aug 2026 · Best Intern Award</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section" id="skills">
+  <div class="wrap">
+    <div class="tab">Toolkit</div>
+    <h2 class="section-title">Skills & Technologies</h2>
+    <p class="section-sub">Core competencies across drone systems, embedded engineering, and AI.</p>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <h3>🐍 Programming</h3>
+        <div class="chip-row">
+          <span class="chip">Python</span>
+          <span class="chip">Java</span>
+          <span class="chip">C</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <h3>🛸 Drone Systems & Ground Stations</h3>
+        <div class="chip-row">
+          <span class="chip">PX4</span>
+          <span class="chip">ArduPilot</span>
+          <span class="chip">Betaflight</span>
+          <span class="chip">INAV</span>
+          <span class="chip">Indigenous & Non-Indigenous FCs</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <h3>🔧 Embedded & Sensors</h3>
+        <div class="chip-row">
+          <span class="chip">Arduino</span>
+          <span class="chip">ESP32</span>
+          <span class="chip">Static & 360° LIDAR</span>
+          <span class="chip">Optical Sensors</span>
+          <span class="chip">GPS / IMU</span>
+          <span class="chip">Communication Modules</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <h3>☁️ Cloud & AI</h3>
+        <div class="chip-row">
+          <span class="chip">Microsoft Azure Fundamentals</span>
+          <span class="chip">Machine Learning (Learning)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section" id="experience">
+  <div class="wrap">
+    <div class="tab">Experience</div>
+    <h2 class="section-title">Where I've Worked</h2>
+    <p class="section-sub">Applied R&D on UAV systems, from prototype to field demo.</p>
+    <div class="exp-card reveal">
+      <div class="exp-mark">🛸</div>
+      <div>
+        <div class="exp-role">Drone R&D Engineer — Summer Internship</div>
+        <div class="exp-org">Whizz Aerospace Pvt. Ltd. · 25 May 2026 – 09 Aug 2026 · Best Intern Award</div>
+        <p class="body">Worked on Unmanned Aerial Vehicles (UAVs), aerospace systems, embedded electronics & sensors (GPS, IMU, LIDAR), flight control systems, and R&D activities. Contributed to projects on hybrid drone interceptors and surveillance platforms, delivering successful demos at defence and government sectors. Also worked on mesh communications, swarm technology, anti-drone systems, and non-GPS navigation systems.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK: DRONE / FPV PROJECTS -->
+<section class="section" id="work">
+  <div class="wrap">
+    <div class="tab">Featured Work</div>
+    <h2 class="section-title">Drone & FPV Projects</h2>
+    <p class="section-sub">Airframes, flight control, and autonomy — built and flown.</p>
+    <div class="work-grid">
+      <div class="work-card reveal">
+        <span class="status-pill status-live">✅ Completed</span>
+        <h3>🎯 FPV Interceptor Drones</h3>
+        <div class="work-meta">Betaflight · INAV · Custom FCs</div>
+        <p class="d">High-agility FPV interceptor builds tuned for fast target engagement, with custom flight-controller integration and rate tuning for responsive handling.</p>
+      </div>
+      <div class="work-card reveal">
+        <span class="status-pill status-live">✅ Completed</span>
+        <h3>💥 Kamikaze / Loitering Platforms</h3>
+        <div class="work-meta">PX4 · ArduPilot</div>
+        <p class="d">Loitering-munition style multirotor and fixed-wing platforms, built for precision terminal engagement with PX4/ArduPilot-based flight stacks.</p>
+      </div>
+      <div class="work-card reveal">
+        <span class="status-pill status-live">✅ Completed</span>
+        <h3>✈️ Fixed-Wing UAV Systems</h3>
+        <div class="work-meta">PX4 · GPS/IMU · Long-Range Comms</div>
+        <p class="d">Fixed-wing airframes built for extended-range flight, integrating GPS/IMU navigation and long-range communication modules for surveillance missions.</p>
+      </div>
+      <div class="work-card reveal">
+        <span class="status-pill status-live">✅ Completed</span>
+        <h3>🚁 Multirotor Platforms</h3>
+        <div class="work-meta">Indigenous & Non-Indigenous FCs · LIDAR</div>
+        <p class="d">Custom multirotor builds integrating both indigenous and non-indigenous flight controllers, static and 360° LIDAR, and optical sensors for stable flight and obstacle awareness.</p>
+      </div>
+      <div class="work-card reveal">
+        <span class="status-pill status-progress">🚧 In Progress</span>
+        <h3>🤖 Autonomous Navigation with AI</h3>
+        <div class="work-meta">Python · Machine Learning</div>
+        <p class="d">Personal project integrating AI onto drones for autonomous navigation — aimed at real-world problems like obstacle avoidance and non-GPS operation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="wrap">
+    <div class="tab">Get In Touch</div>
+    <h2 class="section-title">Let's Build Something Meaningful</h2>
+    <p class="section-sub">Open to drone engineering roles, AI/ML collaborations, or just a good technical conversation.</p>
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div><div class="contact-label">Email</div><div class="contact-value">owaisahmadknp.30@gmail.com</div></div>
+        </div>
+        <a href="https://github.com/owaisahmadknp30-a11y" target="_blank" class="contact-item">
+          <div class="contact-icon">🐙</div>
+          <div><div class="contact-label">GitHub</div><div class="contact-value">owaisahmadknp30-a11y</div></div>
+        </a>
+        <a href="https://www.linkedin.com/in/owais-ahmad-4a9a26401" target="_blank" class="contact-item">
+          <div class="contact-icon">💼</div>
+          <div><div class="contact-label">LinkedIn</div><div class="contact-value">owais-ahmad</div></div>
+        </a>
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div><div class="contact-label">Location</div><div class="contact-value">India</div></div>
+        </div>
+      </div>
+      <div class="form-card reveal">
+        <div class="field"><label>Your Name</label><input type="text" placeholder="e.g. Alex Morgan"></div>
+        <div class="field"><label>Your Email</label><input type="email" placeholder="e.g. alex@example.com"></div>
+        <div class="field"><label>Message</label><textarea placeholder="Hi Owais, I'd like to talk about..."></textarea></div>
+        <button class="btn btn-primary" style="width:100%; justify-content:center;">Send Message →</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-badge"><img src="images/owais.jpg" alt="Owais Ahmad"></div>
+    <p class="footer-quote">"Every drone tells a story of the problem it was built to solve — I'm learning to make them solve it on their own."</p>
+    <div class="social-row">
+      <a href="https://github.com/owaisahmadknp30-a11y" target="_blank">🐙</a>
+      <a href="https://www.linkedin.com/in/owais-ahmad-4a9a26401" target="_blank">💼</a>
+      <a href="mailto:owaisahmadknp.30@gmail.com">✉️</a>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Owais Ahmad. Built with intent, one system at a time.</span>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
